@@ -10,14 +10,14 @@ export const Nav = () => {
 
   return (
     <nav>
-      <ul className="flex items-center gap-8">
+      <ul className="flex flex-col xl:flex-row xl:items-center gap-4 xl:gap-8">
         {navLinks.map(({ name, path }) => (
           <li key={name}>
             <Link
               href={path}
               className={`${
                 path === pathname && "text-accent border-b-2 border-accent"
-              } capitalize font-medium hover:text-accent transition-all`}
+              } text-xl xl:text-base capitalize font-medium hover:text-accent transition-all`}
             >
               {name}
             </Link>

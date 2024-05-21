@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Nav } from "@/components/Nav";
 import { Logo } from "@/components/Logo";
 import { Button } from "@/components/ui/button";
-import { MobileNav } from "@/components/MobileNav";
+import { MobileMenu } from "@/components/MobileMenu";
 
 export const Header = () => {
   return (
@@ -17,7 +17,7 @@ export const Header = () => {
           </Link>
         </div>
         <div className="xl:hidden">
-          <MobileNav />
+          <MobileMenu />
         </div>
       </div>
     </header>
