@@ -10,7 +10,7 @@ export default function Home() {
     <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
       <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
         <div className="text-center xl:text-left order-2 xl:order-none">
-          <span>Software Developer</span>
+          <span className="text-2xl">Software Developer</span>
           <h1 className="h1 mb-6">
             Hello! I&apos;m <br />
             <span className="text-accent">Serhii Kulbashnyi</span>
