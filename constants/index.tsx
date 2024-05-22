@@ -1,3 +1,4 @@
+import { title } from "process";
 import { FaGithub, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 
 export const navLinks = [
@@ -61,5 +62,47 @@ export const serviceList = [
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, provident.",
     href: "/",
+  },
+];
+
+export const projectList = [
+  {
+    num: "01",
+    category: "frontend",
+    title: "Web-Studio",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reiciendis, in nobis perferendis doloribus laudantium.",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascrypt" }],
+    image: "/project1.jpg",
+    live: "",
+    github: "https://eugensson.github.io/web-studio/",
+  },
+  {
+    num: "02",
+    category: "frontend",
+    title: "Finance Ledger",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reiciendis, in nobis perferendis doloribus laudantium.",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascrypt" }],
+    image: "/project2.jpg",
+    live: "",
+    github: "https://eugensson.github.io/finance-ledger-lending/",
+  },
+  {
+    num: "03",
+    category: "frontend",
+    title: "Phonebook App",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reiciendis, in nobis perferendis doloribus laudantium.",
+    stack: [
+      { name: "Html 5" },
+      { name: "Css 3" },
+      { name: "Javascrypt" },
+      { name: "React" },
+      { name: "Redux" },
+    ],
+    image: "/project3.jpg",
+    live: "",
+    github: "https://eugensson.github.io/phonebook/",
   },
 ];
