@@ -1,5 +1,11 @@
-import { title } from "process";
-import { FaGithub, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedinIn,
+  FaTelegramPlane,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 
 export const navLinks = [
   { name: "home", path: "/" },
@@ -104,5 +110,23 @@ export const projectList = [
     image: "/project3.jpg",
     live: "",
     github: "https://eugensson.github.io/phonebook/",
+  },
+];
+
+export const infoList = [
+  {
+    icon: <FaPhoneAlt />,
+    title: "Phone",
+    description: "(+380) 633 062 931",
+  },
+  {
+    icon: <FaEnvelope />,
+    title: "Email",
+    description: "eugensson.25@gmail.com",
+  },
+  {
+    icon: <FaMapMarkerAlt />,
+    title: "Location",
+    description: "Cherkasy, Ukraine",
   },
 ];
