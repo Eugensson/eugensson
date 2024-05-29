@@ -44,7 +44,7 @@ export default function Work() {
               {project.category} project
             </h2>
             <p className="text-white/60">{project.description}</p>
-            <ul className="flex items-center gap-4">
+            <ul className="flex flex-wrap items-center gap-4">
               {project.stack.map(({ name }, index) => (
                 <li key={index} className="text-xl text-accent">
                   {name}
@@ -54,7 +54,7 @@ export default function Work() {
             </ul>
             <div className="border border-white/20"></div>
             <div className="flex items-center gap-4">
-              <Link href={project.live}>
+              <Link href={project.live} target="_blank">
                 <TooltipProvider delayDuration={100}>
                   <Tooltip>
                     <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -66,7 +66,7 @@ export default function Work() {
                   </Tooltip>
                 </TooltipProvider>
               </Link>
-              <Link href={project.github}>
+              <Link href={project.github} target="_blank">
                 <TooltipProvider delayDuration={100}>
                   <Tooltip>
                     <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
